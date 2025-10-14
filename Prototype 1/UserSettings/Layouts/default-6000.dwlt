@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 381
     height: 737
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 378
     height: 933
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -528,9 +528,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 54ba0000
-      m_LastClickedID: 47700
-      m_ExpandedIDs: 0cfbffff64ba0000
+      m_SelectedIDs: 7af1ffff
+      m_LastClickedID: -3718
+      m_ExpandedIDs: 98f1ffff0cfbffff2ac10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -829,7 +829,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: Floating
-      displayed: 0
+      displayed: 1
       id: Scene View/Particles
       index: 0
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":true,"m_FloatingSnapOffset":{"x":-266.0,"y":-219.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -1134,9 +1134,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -2.9424229, y: -3.4982438, z: 15.102665}
+    m_Target: {x: -9.496317, y: 9.172121, z: 7.5284853}
     speed: 2
-    m_Value: {x: -2.9424229, y: -3.4982438, z: 15.102665}
+    m_Value: {x: -9.496317, y: 9.172121, z: 7.5284853}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1182,13 +1182,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09885919, y: -0.29590154, z: 0.031106103, w: 0.94968605}
+    m_Target: {x: -0.097273625, y: -0.16259809, z: -0.015735252, w: 0.9818682}
     speed: 2
-    m_Value: {x: 0.09884921, y: -0.29587168, z: 0.031102963, w: 0.94959015}
+    m_Value: {x: -0.097286746, y: -0.16110794, z: -0.015587662, w: 0.9820064}
   m_Size:
-    m_Target: 11.024639
+    m_Target: 10.50721
     speed: 2
-    m_Value: 11.024639
+    m_Value: 10.50721
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1269,7 +1269,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Course Library/Sound/SFX
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1279,17 +1279,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets/Course Library/Sound/SFX
+  - Assets/Scripts
   m_LastFoldersGridSize: 58
   m_LastProjectPath: C:\Users\02LINUS.RIDDLE\Linus Riddle\Repositories\Junior-Programming-Base\Prototype
     1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 106}
-    m_SelectedIDs: 58bf0000
-    m_LastClickedID: 48984
-    m_ExpandedIDs: 00000000f4bd0000f6bd000048bf000000ca9a3b
+    scrollPos: {x: 0, y: 350}
+    m_SelectedIDs: 5cbf0000
+    m_LastClickedID: 48988
+    m_ExpandedIDs: 00000000fabd0000fcbd0000febd0000c4c0000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1318,7 +1318,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4bd0000f6bd0000
+    m_ExpandedIDs: 00000000fabd0000fcbd0000febd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
