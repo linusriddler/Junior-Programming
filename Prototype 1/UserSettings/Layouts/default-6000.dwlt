@@ -457,7 +457,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -528,9 +528,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7cba0000
-      m_LastClickedID: 47740
-      m_ExpandedIDs: 0cfbffff
+      m_SelectedIDs: b4f4ffff
+      m_LastClickedID: -2892
+      m_ExpandedIDs: e2f5fffffafaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1134,9 +1134,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 2.9535048, y: 10.955543, z: 6.9648924}
+    m_Target: {x: 6.559659, y: 21.602028, z: -0.6253658}
     speed: 2
-    m_Value: {x: 2.9535048, y: 10.955543, z: 6.9648924}
+    m_Value: {x: 6.559659, y: 21.602028, z: -0.6253658}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1182,13 +1182,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1799692, y: 0.04951718, z: 0.009446517, w: 0.9824889}
+    m_Target: {x: -0.5183297, y: -0.15626556, z: 0.09672354, w: -0.83535266}
     speed: 2
-    m_Value: {x: -0.17994992, y: 0.049511876, z: 0.009445504, w: 0.9823836}
+    m_Value: {x: -0.51701045, y: -0.1563907, z: 0.096476674, w: -0.83602303}
   m_Size:
-    m_Target: 10.50721
+    m_Target: 2.048354
     speed: 2
-    m_Value: 10.50721
+    m_Value: 2.048354
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1269,7 +1269,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Course Library/_Source_Files/Materials
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1279,17 +1279,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Course Library/_Source_Files/Materials
   m_LastFoldersGridSize: 58
   m_LastProjectPath: C:\Users\02LINUS.RIDDLE\Linus Riddle\Repositories\Junior-Programming-Base\Prototype
     1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 300}
-    m_SelectedIDs: f8be0000
-    m_LastClickedID: 48888
-    m_ExpandedIDs: 000000008ebd000090bd000092bd0000e0be000000ca9a3b
+    scrollPos: {x: 0, y: 110}
+    m_SelectedIDs: 34c40000
+    m_LastClickedID: 50228
+    m_ExpandedIDs: 000000008cbd00008ebd000090bd0000e0be000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1318,7 +1318,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008ebd000090bd000092bd0000
+    m_ExpandedIDs: 000000008cbd00008ebd000090bd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1346,7 +1346,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000febc000036bf00005cbf0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1364,7 +1364,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 3}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
