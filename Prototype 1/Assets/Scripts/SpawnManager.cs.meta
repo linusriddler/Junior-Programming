@@ -4,7 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - obstaclePrefab: {fileID: 5893176044457621990, guid: a63d28b3e79e955468886ad17b70dc99, type: 3}
+  - obstaclePrefab: {fileID: 8579601760348528630, guid: 0752829c2e3ba4cb78049ff40067a24f, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
