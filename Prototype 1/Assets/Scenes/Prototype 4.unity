@@ -349,7 +349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b884848000b85c4fbbeaa3ff2007433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
 --- !u!1 &718237861
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,6 +683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff750e5ed215a0145aa1198413affb60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 7739028200133021546, guid: 02d1037597b87b84a9ed05248f13e6ac, type: 3}
 --- !u!4 &1399322950
 Transform:
   m_ObjectHideFlags: 0
@@ -692,7 +693,7 @@ Transform:
   m_GameObject: {fileID: 1399322948}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.50159, y: 0.87894, z: 0.54856}
+  m_LocalPosition: {x: -0.50159, y: 0.91, z: 0.54856}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
