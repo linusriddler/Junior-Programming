@@ -150,3 +150,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 100
+  playerGoal: {fileID: 4380135804759485296, guid: 57275a75ce555514692e8ee0ec597269, type: 3}

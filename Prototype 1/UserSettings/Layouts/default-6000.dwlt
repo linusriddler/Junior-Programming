@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 95
+  controlID: 43
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -421,9 +421,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 50bd0000
+      m_SelectedIDs: c48c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 16f2ffff0cfbffff64bd0000
+      m_ExpandedIDs: 0cfbffff1eba0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -440,7 +440,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1027,9 +1027,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 7.724524, y: 0.83978546, z: -0.20026575}
+    m_Target: {x: 7.676357, y: 2.1233816, z: -2.4713302}
     speed: 2
-    m_Value: {x: 7.724524, y: 0.83978546, z: -0.20026575}
+    m_Value: {x: 7.676357, y: 2.1233816, z: -2.4713302}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1075,9 +1075,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.009576354, y: -0.7604711, z: 0.014348134, w: 0.649396}
+    m_Target: {x: -0.062375393, y: 0.8877656, z: -0.13161603, w: -0.43703187}
     speed: 2
-    m_Value: {x: 0.009574779, y: -0.760346, z: 0.014345774, w: 0.6492892}
+    m_Value: {x: -0.061905023, y: 0.8871554, z: -0.13016932, w: -0.4383822}
   m_Size:
     m_Target: 2.9708967
     speed: 2
@@ -1162,7 +1162,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Challenge 4/Prefabs
+    - Assets/Challenge 4/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1172,17 +1172,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 69
   m_LastFolders:
-  - Assets/Challenge 4/Prefabs
+  - Assets/Challenge 4/Scripts
   m_LastFoldersGridSize: 69
   m_LastProjectPath: C:\Users\02LINUS.RIDDLE\Linus Riddle\Repositories\Junior-Programming-Base\Prototype
     1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 52bd0000
-    m_LastClickedID: 48466
-    m_ExpandedIDs: 00000000d4ba0000d6ba0000d8ba000022bc000056bd000000ca9a3b
+    scrollPos: {x: 0, y: 82}
+    m_SelectedIDs: 92bc0000
+    m_LastClickedID: 48274
+    m_ExpandedIDs: 0000000034bb000036bb000038bb00007ebc000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1211,7 +1211,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4ba0000d6ba0000d8ba0000
+    m_ExpandedIDs: 0000000034bb000036bb000038bb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
