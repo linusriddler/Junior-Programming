@@ -1,27 +1,15 @@
 using UnityEngine;
 
-public class CameraRotation : MonoBehaviour { 
+public class CameraFollow : MonoBehaviour
+{
+    public Transform target; // The player's transform
+    public Vector3 offset;   // The desired offset from the player
 
-    public float rotationSpeed2;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void LateUpdate()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-   
-        if (Input.GetKey(KeyCode.E))
-            {
-            transform.Rotate(Vector3.right * rotationSpeed2 * Time.deltaTime);
-            }
-
-        if (Input.GetKey(KeyCode.Q))
-            {
-            transform.Rotate(Vector3.left * rotationSpeed2 * Time.deltaTime);
-            }
-        
+        if (target != null)
+        {
+            transform.position = target.position + offset;ill
+        }
     }
 }
