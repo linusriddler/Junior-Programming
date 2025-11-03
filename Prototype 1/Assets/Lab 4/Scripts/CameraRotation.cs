@@ -9,7 +9,7 @@ public class CameraFollow : MonoBehaviour
     {
         if (target != null)
         {
-            transform.position = target.position + offset;ill
+            transform.position = target.position + offset;
         }
     }
 }

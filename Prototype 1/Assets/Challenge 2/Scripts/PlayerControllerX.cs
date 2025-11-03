@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-public class PlayerControllerX : MonoBehaviour
+public class PlayerControllerX1 : MonoBehaviour
 {
     public GameObject dogPrefab;
     private float currentDogDelay = 0f;
