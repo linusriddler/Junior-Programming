@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 3
   tags:
+
   - Bad
+
+  - Ground
+  - Obstacle
+
   layers:
   - Default
   - TransparentFX

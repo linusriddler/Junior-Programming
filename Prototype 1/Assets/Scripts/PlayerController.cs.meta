@@ -1,2 +1,19 @@
 fileFormatVersion: 2
+
 guid: 01b46cbcf241f0c4a80327bf78476bed
+
+guid: 01b46cbcf241f0c4a80327bf78476bed
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - explosionParticle: {instanceID: 0}
+  - dirtParticle: {instanceID: 0}
+  - jumpSound: {fileID: 8300000, guid: 08ab7053d586c458db3774d33c141a4b, type: 3}
+  - crashSound: {fileID: 8300000, guid: 913d6445ee8cc4152a9c18da590ee203, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+
