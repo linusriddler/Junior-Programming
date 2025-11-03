@@ -10,6 +10,9 @@ TagManager:
   - Ground
   - Obstacle
 
+  - Powerup
+  - Enemy
+  - PlayerGoal
   layers:
   - Default
   - TransparentFX

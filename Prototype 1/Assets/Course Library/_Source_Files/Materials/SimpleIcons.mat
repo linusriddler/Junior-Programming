@@ -2,6 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 
 
+
 --- !u!114 &-6629327031794211546
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -46,9 +47,13 @@ Material:
         m_Texture: {fileID: 2800000, guid: 3e3e7739c37f6df4a9ac958352bdd251, type: 3}
         m_Scale: {x: 1, y: 1}
 
+
         m_Offset: {x: 0, y: 0.9}
 
         m_Offset: {x: 0.23, y: -0.13}
+
+
+        m_Offset: {x: 0, y: 0.9}
 
     - _BumpMap:
         m_Texture: {fileID: 0}
@@ -74,9 +79,13 @@ Material:
         m_Texture: {fileID: 2800000, guid: 3e3e7739c37f6df4a9ac958352bdd251, type: 3}
         m_Scale: {x: 1, y: 1}
 
+
         m_Offset: {x: 0, y: 0.9}
 
         m_Offset: {x: 0.23, y: -0.13}
+
+
+        m_Offset: {x: 0, y: 0.9}
 
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -147,7 +156,11 @@ Material:
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 
+
 --- !u!114 &2754246388593161022
+
+--- !u!114 &1832131212983320329
+
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,5 +173,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 9
+
+
+
 
 

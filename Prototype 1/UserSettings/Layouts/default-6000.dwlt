@@ -299,9 +299,13 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 
+
   controlID: 89
 
   controlID: 38
+
+
+  controlID: 37
 
   draggingID: 0
 --- !u!114 &6
@@ -1015,6 +1019,7 @@ MonoBehaviour:
       m_LastClickedID: 0
 
 
+
       m_ExpandedIDs: 28f3ffff0cfbffff40be000086be00008ebe0000ccbe0000e0be0000
       m_SelectedIDs: 0afbffff
       m_LastClickedID: -1270
@@ -1024,6 +1029,9 @@ MonoBehaviour:
 
 
       m_ExpandedIDs: 06fbffff
+
+
+      m_ExpandedIDs: d8faffff68ba0000
 
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1670,6 +1678,7 @@ MonoBehaviour:
   m_Position:
 
 
+
     m_Target: {x: 796.12836, y: 319.1627, z: -2.8660133}
     speed: 2
     m_Value: {x: 796.12836, y: 319.1627, z: -2.8660133}
@@ -1685,6 +1694,11 @@ MonoBehaviour:
     m_Target: {x: 6.591324, y: 10.268192, z: 6.0637107}
     speed: 2
     m_Value: {x: 6.591324, y: 10.268192, z: 6.0637107}
+
+
+    m_Target: {x: 7.7705417, y: -1.8709857, z: -5.438023}
+    speed: 2
+    m_Value: {x: 7.7705417, y: -1.8709857, z: -5.438023}
 
   m_RenderMode: 0
   m_CameraMode:
@@ -1733,6 +1747,7 @@ MonoBehaviour:
   m_Rotation:
 
 
+
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
@@ -1764,6 +1779,15 @@ MonoBehaviour:
     m_Target: 2.048354
     speed: 2
     m_Value: 2.048354
+
+
+    m_Target: {x: -0.007251606, y: -0.9586659, z: 0.2846089, w: -0.017596953}
+    speed: 2
+    m_Value: {x: -0.007197369, y: -0.9593213, z: 0.28167462, w: -0.017615046}
+  m_Size:
+    m_Target: 3.8688803
+    speed: 2
+    m_Value: 3.8688803
 
   m_Ortho:
     m_Target: 1
@@ -1877,12 +1901,16 @@ MonoBehaviour:
     m_Folders:
 
 
+
     - Assets/Challenge 5/Scripts
 
     - Assets/ModTheCube
 
 
     - Assets/Other Scripts
+
+
+    - Assets/Lab 4/Prefabs
 
     m_Globs: []
     m_ProductIds: 
@@ -1891,6 +1919,7 @@ MonoBehaviour:
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
+
 
   m_StartGridSize: 56
   m_LastFolders:
@@ -1907,11 +1936,18 @@ MonoBehaviour:
   - Assets/Other Scripts
   m_LastFoldersGridSize: 58
 
+
+  m_StartGridSize: 69
+  m_LastFolders:
+  - Assets/Lab 4/Prefabs
+  m_LastFoldersGridSize: 69
+
   m_LastProjectPath: C:\Users\02LINUS.RIDDLE\Linus Riddle\Repositories\Junior-Programming-Base\Prototype
     1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+
 
 
     scrollPos: {x: 0, y: 79}
@@ -1929,6 +1965,12 @@ MonoBehaviour:
     m_SelectedIDs: 80be0000
     m_LastClickedID: 48768
     m_ExpandedIDs: 0000000038bd00003abd00007ebe000090be000000ca9a3b
+
+
+    scrollPos: {x: 0, y: 350}
+    m_SelectedIDs: f8bb0000
+    m_LastClickedID: 48120
+    m_ExpandedIDs: 00000000a8ba0000aaba0000acba0000aeba0000b0ba0000b2ba0000b4ba0000f0bb0000f6bb000000ca9a3b
 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1960,12 +2002,16 @@ MonoBehaviour:
     m_LastClickedID: 0
 
 
+
     m_ExpandedIDs: 00000000ccbc0000cebc0000
 
     m_ExpandedIDs: 00000000d4be0000
 
 
     m_ExpandedIDs: 0000000038bd00003abd0000
+
+
+    m_ExpandedIDs: 00000000a8ba0000aaba0000acba0000aeba0000b0ba0000b2ba0000b4ba0000
 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1995,7 +2041,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+
     m_ExpandedInstanceIDs: c6230000febc000036bf00005cbf0000
+
+    m_ExpandedInstanceIDs: c6230000febc000000000000
+
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2014,12 +2064,16 @@ MonoBehaviour:
       m_TrimLeadingAndTrailingWhitespace: 0
 
 
+
       m_ClientGUIView: {fileID: 10}
 
       m_ClientGUIView: {fileID: 12}
 
 
       m_ClientGUIView: {fileID: 9}
+
+
+      m_ClientGUIView: {fileID: 10}
 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -2030,7 +2084,11 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
 
+
     m_GridSize: 56
+
+    m_GridSize: 69
+
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 
