@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController2 : MonoBehaviour
 {
     private float speed = 20.0f;
     private float turnSpeed = 60.0f;

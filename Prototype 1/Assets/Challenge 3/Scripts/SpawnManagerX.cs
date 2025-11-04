@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnManagerX : MonoBehaviour
+public class SpawnManager3: MonoBehaviour
 {
     public GameObject[] objectPrefabs;
     private float spawnDelay = 2;
     private float spawnInterval = 1.5f;
-
     private PlayerControllerX playerControllerScript;
+    public bool gameOver = true;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class SpawnManagerX : MonoBehaviour
         int index = Random.Range(0, objectPrefabs.Length);
 
         // If game is still active, spawn new object
-        if (!playerControllerScript.gameOver == false)
+        if (!playerControllerScript == false)
         {
             Instantiate(objectPrefabs[index], spawnLocation, objectPrefabs[index].transform.rotation);
         }

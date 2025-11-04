@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControllerX : MonoBehaviour
+public class PlayerControllerX10 : MonoBehaviour
 {
     public bool gameOver;
 

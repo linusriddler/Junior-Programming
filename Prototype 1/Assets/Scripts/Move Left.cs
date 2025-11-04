@@ -14,7 +14,7 @@ public class MoveLeftButreally : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerControllerScript.gameOver == false) { 
+        if (playerControllerScript == false) { 
             transform.Translate(Vector3.left * Time.deltaTime * speed);
         }
         if (transform.position.x < leftBound && gameObject.CompareTag("Obstacle"))
