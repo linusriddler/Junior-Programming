@@ -2,12 +2,17 @@ using UnityEngine;
 
 public class MainManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-
     public static MainManager Instance;
+    public Color TeamColor; // new variable declared
 
     private void Awake()
     {
+        // start of new code
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
