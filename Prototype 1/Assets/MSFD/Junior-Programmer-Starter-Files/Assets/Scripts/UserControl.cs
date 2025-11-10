@@ -19,6 +19,27 @@ public class UserControl : MonoBehaviour
     {
         Marker.SetActive(false);
     }
+    public void HandleSelection()
+    {
+        var ray = GameCamera.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit))
+        {
+            //the collider could be children of the unit, so we make sure to check in the parent
+            var unit = hit.collider.GetComponentInParent<Unit>();
+            m_Selected = unit;
+
+
+            //check if the hit object have a IUIInfoContent to display in the UI
+            //if there is none, this will be null, so this will hid the panel if it was displayed
+            var uiInfo = hit.collider.GetComponentInParent<UIMainScene.IUIInfoContent>();
+            UIMainScene.Instance.SetNewInfoContent(uiInfo);
+        }
+    }
+    public void HandleAction()
+    {
+
+    }
 
     private void Update()
     {
@@ -27,20 +48,7 @@ public class UserControl : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            var ray = GameCamera.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
-            {
-                //the collider could be children of the unit, so we make sure to check in the parent
-                var unit = hit.collider.GetComponentInParent<Unit>();
-                m_Selected = unit;
-                
-                
-                //check if the hit object have a IUIInfoContent to display in the UI
-                //if there is none, this will be null, so this will hid the panel if it was displayed
-                var uiInfo = hit.collider.GetComponentInParent<UIMainScene.IUIInfoContent>();
-                UIMainScene.Instance.SetNewInfoContent(uiInfo);
-            }
+
         }
         else if (m_Selected != null && Input.GetMouseButtonDown(1))
         {//right click give order to the unit
