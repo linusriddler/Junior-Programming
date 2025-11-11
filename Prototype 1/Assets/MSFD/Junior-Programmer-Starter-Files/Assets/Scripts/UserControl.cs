@@ -38,7 +38,21 @@ public class UserControl : MonoBehaviour
     }
     public void HandleAction()
     {
+        var ray = GameCamera.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit))
+        {
+            var building = hit.collider.GetComponentInParent<Building>();
 
+            if (building != null)
+            {
+                m_Selected.GoTo(building);
+            }
+            else
+            {
+                m_Selected.GoTo(hit.point);
+            }
+        }
     }
 
     private void Update()
@@ -52,21 +66,7 @@ public class UserControl : MonoBehaviour
         }
         else if (m_Selected != null && Input.GetMouseButtonDown(1))
         {//right click give order to the unit
-            var ray = GameCamera.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
-            {
-                var building = hit.collider.GetComponentInParent<Building>();
-                
-                if (building != null)
-                {
-                    m_Selected.GoTo(building);
-                }
-                else
-                {
-                    m_Selected.GoTo(hit.point);
-                }
-            }
+ 
         }
 
         MarkerHandling();
